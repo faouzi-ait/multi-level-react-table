@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -8,25 +9,26 @@ body {
   padding: 1rem
 }
 
-table {
-  border-spacing: 0;
-  border: 1px solid black;
+.MuiTable-root {
+  width: 80% !important;
+  margin: 0 auto !important;
+  border: 1px solid #ccc !important;
+  border-radius: 10px !important;
+  border-collapse: inherit !important;
+  box-shadow: 5px 3px 5px 0px rgba(235, 235, 235, 1);
 }
 
-th,
-td {
-  margin: 0;
-  padding: 0.5rem;
-  border-bottom: 1px solid black;
-  border-right: 1px solid black;
+td, th {
+  font-size: 1.25rem !important;
+  text-align: center !important;
 }
 
-/* th,
-td:last-child {
-  border-right: 0;
-} */
-
-tr:last-child td{
-  border-bottom: 0;
+th {
+  padding: 1.5rem;
+  font-size: 1.35rem !important;
+  border-bottom: 1px solid #ccc !important;
 }
- 
+
+td:first-of-type {
+  width: 2rem;
+}
